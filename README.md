@@ -213,6 +213,107 @@ Utilizar os pesos nativos do Chakra UI.
 ```
 
 ---
+# 🔘 Primary Button
+
+Botão principal do sistema Morent UI.
+
+---
+
+## 📦 Uso básico
+
+```tsx
+<PrimaryButton
+  label="Button"
+  aria-label="button"
+/>
+```
+
+---
+
+## 📏 Sizes
+
+### sm
+
+```tsx
+<PrimaryButton
+  label="Button"
+  size="sm"
+  aria-label="button"
+/>
+```
+
+### md (default)
+
+```tsx
+<PrimaryButton
+  label="Button"
+  size="md"
+  aria-label="button"
+/>
+```
+
+### lg
+
+```tsx
+<PrimaryButton
+  label="Button"
+  size="lg"
+  aria-label="button"
+/>
+```
+
+---
+
+## 🎯 Ícones
+
+### Left icon
+
+```tsx
+<PrimaryButton
+  label="Button"
+  leftIcon={<Wechat />}
+  size="md"
+  aria-label="button"
+/>
+```
+
+### Right icon
+
+```tsx
+<PrimaryButton
+  label="Button"
+  rightIcon={<Wechat />}
+  size="md"
+  aria-label="button"
+/>
+```
+
+### Icon only
+
+```tsx
+<PrimaryButton
+  iconOnly
+  icon={<Wechat />}
+  aria-label="button"
+/>
+```
+
+---
+
+## ⚙️ Estados
+
+- hover
+- active
+- focus-visible
+- disabled
+
+---
+
+## 🧠 Regras
+
+- `iconOnly` exige `aria-label`
+- Usar apenas para ações principais
+- Sempre usar tokens do sistema
 
 ## Convenções
 > Os nomes dos tokens seguem exatamente a nomenclatura definida no Figma para manter consistência entre design e desenvolvimento.
